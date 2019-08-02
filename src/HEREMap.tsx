@@ -96,7 +96,6 @@ export class HEREMap extends React.Component<HEREMapProps, HEREMapContext> {
       hidpi,
       interactive,
       zoom,
-      secure,
       setLayer,
     } = this.props
 
