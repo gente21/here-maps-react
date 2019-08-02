@@ -103,7 +103,7 @@ export class HEREMap extends React.Component<HEREMapProps, HEREMapContext> {
     const platform = getPlatform({
       app_code: appCode,
       app_id: appId,
-      useHTTPS: secure === true,
+      useHTTPS: true,
     })
 
     const defaultLayers = platform.createDefaultLayers({
